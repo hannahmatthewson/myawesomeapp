@@ -1,0 +1,191 @@
+<html lang="en">
+  
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+    <style type="text/css">
+      
+        .jumbotron-fluid {
+            background-image: url(banner-img.jpg);
+            height: 400px;
+            text-align: center;
+        }
+    
+        .input-group {
+            margin-left: 250px;
+        }
+        
+        
+        #yourEmail {
+            width: 300px;
+        }
+        
+        .web-banner {
+            width: 960px;
+        }
+        
+        h1 {
+            padding-top: 50px;
+        }
+        
+        .headingTwo {
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .cards {
+            text-align: center;
+        }
+        
+        .firstCard {
+            display: inline-block;
+            width: 18rem;
+            margin: 25px;
+        }
+          .firstCard > img {
+              height: 400px;
+        }
+        
+        .secondCard {
+            display: inline-block;
+            width: 18rem;
+            margin: 25px;
+        }
+          .secondCard > img {
+              height: 400px;
+        }
+        
+        .thirdCard {
+            display: inline-block;
+            width: 18rem;
+            margin: 25px;
+        }
+          .thirdCard > img {
+              height: 400px;
+        }
+        
+        .containerThree {
+            background-color: #1CC2CE;
+            height: 400px;
+        }
+        
+        .app-store-img {
+           height: 80px;
+           margin-top: 150px;
+        }
+        
+        .footer {
+            text-align: center;
+        }
+        
+    </style>
+
+    
+    <title>MyApp!</title>
+      
+  </head>
+    
+  <body>
+      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MyApp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Download
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">The App</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email">
+            <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Login</button>
+          </form>
+        </div>
+      </nav>
+    
+      <div class="jumbotron-fluid">
+        <div class="container web-banner">
+          <h1 class="display-3">My Awesome App!</h1>
+          <p class="lead">This is why YOU should download this fantastic app!</p>
+          <hr class="my-4">
+          <p>Want to know more? Join our mailing list!</p>
+          <form class="form-inline">
+            <label class="sr-only" for="inlineFormInputGroupUsername2">Your Email</label>
+              <div class="input-group mb-2 mr-sm-2">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="yourEmail" placeholder="Your Email">
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Sign Up</button>
+          </form>
+        </div>
+      </div>
+
+      
+     <div class="containerTwo">
+       <div class="headingTwo">
+           <h2>Why This App Is Awesome</h2> 
+           <p>Where I would place a short summary</p>
+       </div>
+
+       <div class="cards">
+         <div class="card firstCard">
+           <img src="zhu-hongzhi-1258916-unsplash.jpg" class="card-img-top" alt="zhu-hongzhi">
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+
+         <div class="card secondCard" style="width: 18rem;">
+           <img src="sebastian-pena-lambarri-1218041-unsplash.jpg" class="card-img-top" alt="sebastian-pena-lambarri">
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+
+         <div class="card thirdCard" style="width: 18rem;">
+           <img src="cosmic-timetraveler-1327414-unsplash.jpg" class="card-img-top" alt="cosmic-timetraveler">
+           <div class="card-body">
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           </div>
+         </div>
+       </div>
+     </div>  
+      
+     <div class="containerThree">
+       <div class="footer">
+         <a href="https://www.apple.com/uk/ios/app-store/">
+           <img src="app-store-logo.png" class="app-store-img">
+         </a>
+       </div>
+     </div>
+
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      
+  </body>
+</html>
